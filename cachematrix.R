@@ -1,5 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Functions below makes use of "cache" for matrix inverse calculations.
+## To make cache-aware matrix, use `makeCacheMatrix` over your original matrix.
+## Then you are to use `cacheSolve` function to get a solution using cache.
 
 ## Creates a structure that handles storing of matrix and its inverse value, 
 ## by exposing 4 corresponding methods for getting and setting matrix itself or inverse value
